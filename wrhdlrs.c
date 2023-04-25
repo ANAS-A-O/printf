@@ -182,11 +182,11 @@ int wrunsgnd(int maybenegative, int rang,
 
 		bff[i] = '\0';
 
-		if (fl & F_MINUS) 
+		if (fl & F_MINUS)
 		{
 			return (write(1, &bff[rang], lgth) + write(1, &bff[0], i));
 		}
-		else 
+		else
 		{
 			return (write(1, &bff[0], i) + write(1, &bff[rang], lgth));
 		}
