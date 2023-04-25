@@ -7,7 +7,7 @@
 #define UNUSED(x) (void)(x)
 #define buffy_sz 1024
 
-/* fl */
+/* fl1 */
 #define F_MINUS 1
 #define F_PLUS 2
 #define F_ZERO 4
