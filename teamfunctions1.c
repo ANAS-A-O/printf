@@ -13,7 +13,7 @@ int printerunsigned(va_list typ, char bff[],
 	int fl, int wd, int prs, int sz)
 {
 	int i = buffy_sz - 2;
-	unsigned long intnumber = va_arg(typ, unsigned long int);
+	unsigned long num = va_arg(typ, unsigned long int);
 
 	num = convert_sz_unsgnd(num, sz);
 
@@ -47,7 +47,7 @@ int printeroctal(va_list typ, char bff[],
 {
 
 	int i = buffy_sz - 2;
-	unsigned long intnumber = va_arg(typ, unsigned long int);
+	unsigned long num = va_arg(typ, unsigned long int);
 	unsigned long int init_num = num;
 
 	UNUSED(wd);
@@ -121,7 +121,7 @@ int printerhexa(va_list typ, char map_to[], char bff[],
 	int fl, char flag_ch, int wd, int prs, int sz)
 {
 	int i = buffy_sz - 2;
-	unsigned long intnumber = va_arg(typ, unsigned long int);
+	unsigned long num = va_arg(typ, unsigned long int);
 	unsigned long int init_num = num;
 
 	UNUSED(wd);
