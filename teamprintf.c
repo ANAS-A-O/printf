@@ -8,7 +8,7 @@ void printerbff(char bff[], int *buffy_rang);
  */
 int _printf(const char *format, ...)
 {
-	int i, prted = 0, charsprinted = 0;
+	int i, printed = 0, charsprinted = 0;
 	int fl, wd, prs, sz, buffy_rang = 0;
 	va_list list;
 	char bff[buffy_sz];
