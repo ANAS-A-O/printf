@@ -42,7 +42,7 @@ int _printf(const char *format, ...);
 			charsprinted += printed;
 		}
 	}
-}
+
 	printerbff(bff, &buffy_rang);
 
 	va_end(list);
