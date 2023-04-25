@@ -35,8 +35,7 @@ int _printf(const char *format, ...)
 			prs = teampr(format, &i, list);
 			sz = teamsz(format, &i);
 			++i;
-			printed = hdl_print(format, &i, list, bff,
-				fl, wd, prs, sz);
+			printed = hdl_print(format, &i, list, bff, fl, wd, prs, sz);
 			if (printed == -1)
 				return (-1);
 			charsprinted += printed;
