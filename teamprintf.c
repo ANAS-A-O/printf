@@ -61,3 +61,4 @@ void printerbff(char bff[], int *buffy_rang)
 
 	*buffy_rang = 0;
 }
+}
